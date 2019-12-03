@@ -1,0 +1,13 @@
+[package]
+name = "aoc-2019"
+version = "0.1.0"
+authors = ["Ukko Sarekoski <ukonvaaja10@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+regex = "1"
+lazy_static = "1.2.0"
+linked-list = "0.0.3"
+
+[profile.release]
+debug = true
