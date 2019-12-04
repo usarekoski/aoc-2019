@@ -65,16 +65,16 @@ fn main() {
                 day1::solve2(read_and_parse_input("day1.txt"))
             );
         }
-        // 2 => {
-        //     println!(
-        //         "day2 part1: {}",
-        //         day2::solve1(read_and_parse_input("day2.txt"))
-        //     );
-        //     println!(
-        //         "day2 part2: {}",
-        //         day2::solve2(read_and_parse_input("day2.txt"))
-        //     );
-        // }
+        2 => {
+            println!(
+                "day2 part1: {}",
+                day2::solve1(read_and_parse_input("day2.txt"))
+            );
+            println!(
+                "day2 part2: {}",
+                day2::solve2(read_and_parse_input("day2.txt"))
+            );
+        }
         3 => {
             println!(
                 "day3 part1: {}",
