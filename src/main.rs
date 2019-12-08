@@ -25,7 +25,7 @@ mod day4;
 mod day5;
 // mod day6;
 // mod day7;
-// mod day8;
+mod day8;
 // mod day9;
 
 pub fn read_and_parse_input<T>(file: &str) -> Vec<T>
@@ -119,16 +119,14 @@ fn main() {
         //         day7::solve2(read_and_parse_input("day7.txt"), 5, 60)
         //     );
         // }
-        // 8 => {
-        //     println!(
-        //         "day8 part1: {}",
-        //         day8::solve1(read_and_parse_input("day8.txt"))
-        //     );
-        //     println!(
-        //         "day8 part2: {}",
-        //         day8::solve2(read_and_parse_input("day8.txt"))
-        //     );
-        // }
+        8 => {
+            println!(
+                "day8 part1: {}",
+                day8::solve1(read_and_parse_input("day8.txt"))
+            );
+            println!("day8 part2:");
+            day8::solve2(read_and_parse_input("day8.txt"))
+        }
         // 9 => {
         //     println!("day9 part1: {}", day9::solve1(479, 71035));
         //     println!("day9 part2: {}", day9::solve1(479, 71035 * 100));
