@@ -3,7 +3,7 @@ extern crate regex;
 extern crate lazy_static;
 
 mod day1;
-// mod day10;
+mod day10;
 // mod day11;
 // mod day12;
 // mod day13;
@@ -131,10 +131,16 @@ fn main() {
         //     println!("day9 part1: {}", day9::solve1(479, 71035));
         //     println!("day9 part2: {}", day9::solve1(479, 71035 * 100));
         // }
-        // 10 => {
-        //     day10::solve1(read_and_parse_input("day10.txt"), 150_000, 58);
-        //     println!("day10 part1: see image file.");
-        // }
+        10 => {
+            println!(
+                "day10 part1: {}",
+                day10::solve1(read_and_parse_input("day10.txt"))
+            );
+            println!(
+                "day10 part2: {}",
+                day10::solve2(read_and_parse_input("day10.txt"))
+            );
+        }
         // 11 => {
         //     println!("day11 part1: {:?}", day11::solve1(9810));
         //     println!("day11 part2: {:?}", day11::solve2(9810));
