@@ -23,7 +23,7 @@ mod day2;
 mod day3;
 mod day4;
 mod day5;
-// mod day6;
+mod day6;
 // mod day7;
 mod day8;
 // mod day9;
@@ -99,16 +99,16 @@ fn main() {
                 day5::solve2(read_and_parse_input("day5.txt"))
             );
         }
-        // 6 => {
-        //     println!(
-        //         "day6 part1: {}",
-        //         day6::solve1(read_and_parse_input("day6.txt"))
-        //     );
-        //     println!(
-        //         "day6 part2: {}",
-        //         day6::solve2(read_and_parse_input("day6.txt"))
-        //     );
-        // }
+        6 => {
+            println!(
+                "day6 part1: {}",
+                day6::solve1(read_and_parse_input("day6.txt"))
+            );
+            println!(
+                "day6 part2: {}",
+                day6::solve2(read_and_parse_input("day6.txt"))
+            );
+        }
         // 7 => {
         //     println!(
         //         "day7 part1: {}",
