@@ -1,6 +1,8 @@
 extern crate regex;
 #[macro_use]
 extern crate lazy_static;
+#[macro_use]
+extern crate itertools;
 
 mod day1;
 mod day10;
@@ -24,7 +26,7 @@ mod day3;
 mod day4;
 mod day5;
 mod day6;
-// mod day7;
+mod day7;
 mod day8;
 // mod day9;
 
@@ -109,16 +111,16 @@ fn main() {
                 day6::solve2(read_and_parse_input("day6.txt"))
             );
         }
-        // 7 => {
-        //     println!(
-        //         "day7 part1: {}",
-        //         day7::solve1(read_and_parse_input("day7.txt"))
-        //     );
-        //     println!(
-        //         "day7 part2: {}",
-        //         day7::solve2(read_and_parse_input("day7.txt"), 5, 60)
-        //     );
-        // }
+        7 => {
+            println!(
+                "day7 part1: {}",
+                day7::solve1(read_and_parse_input("day7.txt"))
+            );
+            println!(
+                "day7 part2: {}",
+                day7::solve2(read_and_parse_input("day7.txt"))
+            );
+        }
         8 => {
             println!(
                 "day8 part1: {}",

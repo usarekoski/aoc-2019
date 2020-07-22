@@ -8,6 +8,7 @@ edition = "2018"
 regex = "1"
 lazy_static = "1.2.0"
 linked-list = "0.0.3"
+itertools = "0.9.0"
 
 [profile.release]
 debug = true
