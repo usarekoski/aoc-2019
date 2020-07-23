@@ -6,7 +6,7 @@ extern crate itertools;
 
 mod day1;
 mod day10;
-// mod day11;
+mod day11;
 // mod day12;
 // mod day13;
 // mod day14;
@@ -143,10 +143,10 @@ fn main() {
                 day10::solve2(read_and_parse_input("day10.txt"))
             );
         }
-        // 11 => {
-        //     println!("day11 part1: {:?}", day11::solve1(9810));
-        //     println!("day11 part2: {:?}", day11::solve2(9810));
-        // }
+        11 => {
+            println!("day11 part1: {:?}", day11::solve1(read_and_parse_input("day11.txt")));
+            println!("day11 part2: {:?}", day11::solve2(read_and_parse_input("day11.txt")));
+        }
         // 12 => {
         //     println!("day12 part1: {}", day12::solve1(read_input("day12.txt")));
         //     println!("day12 part2: {}", day12::solve2(read_input("day12.txt")));
